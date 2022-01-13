@@ -13,9 +13,9 @@ tqdm==4.55.1
 
     .
     ├──datasets
-       ├──testing_lr_images
+       ├──testing_lr_images     # produced in next section
           ├──XXXX.png
-       ├──training_hr_images
+       ├──training_hr_images    # produced in next section
           ├──XXXX.png
        ├──validation_hr_images  # produced in next section
           ├──XXXX.png
