@@ -76,10 +76,10 @@ python inference.py
 
 # Reproduce the result
 If you want to reproduce the result only, here we provide a few steps: <br />
-```Step1```: Clone this repo.
-```Step2```: Put testing LR images into ```datasets/testing_lr_images```
-```Step3```: Download pre-trained weight file from https://drive.google.com/file/d/1Vd9YVL-zkJgEOm8nWHag5QBspLPFpC1E/view?usp=sharing.
-```Step4```: Put the pre-trained weight file ```1474_31.5458.pth``` to ```weights``` folder.
-```Step5```: Change ```line 53``` in ```inference.py``` into ```ckpt = os.path.join('weights', '1474_31.5458.pth')```.
-```Step6```: Run ```python inference.py```.
+```Step1```: Clone this repo. <br />
+```Step2```: Put testing LR images into ```datasets/testing_lr_images``` <br />
+```Step3```: Download pre-trained weight file from https://drive.google.com/file/d/1Vd9YVL-zkJgEOm8nWHag5QBspLPFpC1E/view?usp=sharing. <br />
+```Step4```: Put the pre-trained weight file ```1474_31.5458.pth``` to ```weights``` folder. <br />
+```Step5```: Change ```line 53``` in ```inference.py``` into ```ckpt = os.path.join('weights', '1474_31.5458.pth')```. <br />
+```Step6```: Run ```python inference.py```. <br />
 ```Step7```: You may get the resulting HR images in ```answer``` folder.
