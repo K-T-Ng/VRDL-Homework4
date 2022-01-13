@@ -50,7 +50,7 @@ if __name__ == '__main__':
     # set up path
     testLoc = os.path.join('datasets', 'testing_lr_images')
     resultLoc = os.path.join('answer')
-    ckpt = os.path.join('weights', '1444_30.6577.pth')
+    ckpt = os.path.join('weights', '1474_31.5458.pth')
     testList = os.listdir(testLoc)
 
     # read model
