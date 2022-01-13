@@ -53,7 +53,7 @@ python prepare_train_dataset.py
 python prepare_valid_dataset.py
 ```
 
-# Training code
+## Training code
 If you want to run single-scale training, modify the hyper-parameters in ```train.py``` (e.g. you can change the scaling up factor in ```line 28```). Then run 
 ```
 python train.py
@@ -68,13 +68,13 @@ After training, the top five weight file ```{ep}_{valid_psnr}.pth``` can be foun
 For reproducing the result, you may download the pretrained weight in https://drive.google.com/file/d/1Vd9YVL-zkJgEOm8nWHag5QBspLPFpC1E/view?usp=sharing. <br />
 This weight file named ```1474_31.5458.pth```. After downloading this file, put it into ```weights``` folder.
 
-# Inference code
+## Inference code
 You may change the weight folder in ```line 53``` in ```inference.py``` and run
 ```
 python inference.py
 ```
 
-# Reproduce the result
+## Reproduce the result
 If you want to reproduce the result only, here we provide a few steps: <br />
 ```Step1```: Clone this repo. <br />
 ```Step2```: Put testing LR images into ```datasets/testing_lr_images``` <br />
@@ -83,3 +83,6 @@ If you want to reproduce the result only, here we provide a few steps: <br />
 ```Step5```: Change ```line 53``` in ```inference.py``` into ```ckpt = os.path.join('weights', '1474_31.5458.pth')```. <br />
 ```Step6```: Run ```python inference.py```. <br />
 ```Step7```: You may get the resulting HR images in ```answer``` folder.
+
+## Reference
+We use the code from https://github.com/saeed-anwar/DRLN
