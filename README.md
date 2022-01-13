@@ -63,7 +63,7 @@ If you want to run multi-scale training, modify the hyper-parameters in ```train
 python train_multi_scale.py
 ```
 
-# Pre-trained model
+## Pre-trained model
 After training, the top five weight file ```{ep}_{valid_psnr}.pth``` can be found in ```weights``` folder.
 For reproducing the result, you may download the pretrained weight in https://drive.google.com/file/d/1Vd9YVL-zkJgEOm8nWHag5QBspLPFpC1E/view?usp=sharing. <br />
 This weight file named ```1474_31.5458.pth```. After downloading this file, put it into ```weights``` folder.
