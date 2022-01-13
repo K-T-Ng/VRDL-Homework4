@@ -69,7 +69,7 @@ For reproducing the result, you may download the pretrained weight in https://dr
 This weight file named ```1474_31.5458.pth```. After downloading this file, put it into ```weights``` folder.
 
 # Inference code
-You may change the weight folder in ```line 53``` in inference.py <br /> and run
+You may change the weight folder in ```line 53``` in ```inference.py``` and run
 ```
 python inference.py
 ```
