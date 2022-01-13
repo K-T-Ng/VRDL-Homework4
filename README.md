@@ -30,7 +30,7 @@ tqdm==4.55.1
        ├──ValHR                 # produced in next section
        ├──ValLR                 # produced in next section
        ├──Valid                 # produced during training
-    ├──datasets
+    ├──answer
        ├──XXXX_pred.png
     ├──function
     ├──model
